@@ -1,4 +1,4 @@
-Sitemap: https://adveconometrics.gragusa.org/sitemap.xml
+Sitemap: https://gragusa.org/advmetrics/sitemap.xml
 
 User-agent: *
 Disallow:
