@@ -4,11 +4,12 @@ website.
 The website_* must be defined for the RSS to work
 -->
 @def website_title = "Advanced Econometrics (246PP)"
+
 @def website_descr = "Website for Advanced Econometrics"
-@def website_url   = "https://adveconometrics.gragusa.org"
+
+@def website_url   = "https://gragusa.org/advmetrics"
 
 @def author = "Giuseppe Ragusa"
-
 @def mintoclevel = 2
 @def prepath = "advmetrics"
 <!--
@@ -24,5 +25,5 @@ pages. It can be math commands but does not need to be.
 For instance:
 * \newcommand{\phrase}{This is a long phrase to copy.}
 -->
-\newcommand{\R}{\mathbb R}
-\newcommand{\scal}[1]{\langle #1 \rangle}
+<!-- \newcommand{\R}{\mathbb R} -->
+<!-- \newcommand{\scal}[1]{\langle #1 \rangle} -->
