@@ -3,6 +3,7 @@ Add here global page variables to use throughout your
 website.
 The website_* must be defined for the RSS to work
 -->
+
 @def website_title = "Advanced Econometrics (246PP)"
 
 @def website_descr = "Website for Advanced Econometrics"
@@ -10,8 +11,11 @@ The website_* must be defined for the RSS to work
 @def website_url   = "https://gragusa.org/advmetrics"
 
 @def author = "Giuseppe Ragusa"
+
 @def mintoclevel = 2
+
 @def prepath = "advmetrics"
+
 <!--
 Add here files or directories that should be ignored by Franklin, otherwise
 these files might be copied and, if markdown, processed by Franklin which
