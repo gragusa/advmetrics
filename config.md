@@ -10,7 +10,7 @@ The website_* must be defined for the RSS to work
 @def author = "Giuseppe Ragusa"
 
 @def mintoclevel = 2
-
+@def prepath = "advmetrics"
 <!--
 Add here files or directories that should be ignored by Franklin, otherwise
 these files might be copied and, if markdown, processed by Franklin which
