@@ -198,3 +198,70 @@ img[src*="#badge"] {
 .title { color: black; font-weight:bold; font-size: large;}
 .semester { color: grey; }
 .feedback { margin-top: 0.5em; }
+
+
+.note {
+  margin-top: 1.5em;
+  width: 95%;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: #677c8e ;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  color: ghostwhite;
+}
+.note .content {
+  padding: 10px;
+  padding-left: 12px;
+  margin: 3px 0px 0px 3px;
+}
+.note .title{
+  font-size: 105%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-left: 7px;
+  padding-top: 2px;
+  color: white;
+  background: #282936;
+}
+
+
+.franklin-content table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 1em;}
+.franklin-content tr,th,td{
+    padding: 10px;
+    border: 1px solid black;}
+
+.franklin-content table tbody tr td {
+  border: 1px solid black;
+}
+
+
+.warning {
+  margin-top: 1.5em;
+  width: 95%;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:  #ffcccc;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  color:#00001a;
+}
+.warning .content {
+  padding: 10px;
+  padding-left: 12px;
+  margin: 3px 0px 0px 3px;
+}
+.warning .title{
+  font-size: 105%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-left: 7px;
+  padding-top: 2px;
+  color: white;
+  background: #800000;
+}

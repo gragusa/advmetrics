@@ -15,11 +15,11 @@ About a third of the lectures will be devoted to empirical applications. They wi
 **Topics include:**
 
  - Basic Asymptotic Theory
- - Single equation Linear Model and Ordinary Least Squares Estimation
+ - Single Equation Linear Model and Ordinary Least Squares Estimation
  - Instrumental Variables of Single Equation Models
  - Basic Linear Unobserved Panel Data Models
  - Binary Response Models
- - Other Nonlinear Models and estimators
+ - General Estimation Framework for Nonlinear Models (GMM, MLE)
  - Special topic: Program Evaluation (if time allows)
 
 # Meet the instructors
@@ -73,20 +73,21 @@ The homework assignments will count toward the average if the student received a
 1. a midterm exam (on **April, 9th**), and 
 2. a comprehensive final exam (on the first appello) 
 
-**On the date of the appello right after the end of lectures,** the course grade is the maximum netween
+**On the date of the appello right after the end of lectures,** the course grade is the maximum between
 
 1. the weighted average of the miterm's grade (30%), final's grade (40%) and the grades on the homework assignments (30%)
 
-2. the weighted average of the miterm's grade (30%), final's grade (70%) 
+2. the weighted average of the miterm's grade (30%) and the comprehensive final's grade (70%) 
 
-3. the grade on the comprehensive exam
+3. the comprehensive final's grade
 
 
-However:
-
-- Only students with a grade of at least 18/30 on all homework assignments handed out before April 9th are allowed to take the midterm exam. 
+\note{
+- Only students with a grade of at least 18/30 on all homework assignments handed out before April 9th are allowed to take the midterm exam
 - The grade on each assignment, the midterm, and the final must be at least 18/30 to be considered in the averages
-- **This option is only available on the first appello.  On subsequent appelli**, the course grade is simply the grade on the comprehensive final exam.
+- **This option is only available on the first appello.  On subsequent appelli**, the course grade is simply the grade on the comprehensive final exam
+}
 
- 
+\warn{
 Students will not be allowed to take the exam on two consecutive dates.
+}
