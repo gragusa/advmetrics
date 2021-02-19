@@ -39,13 +39,20 @@ A dedicated [Teams channel](https://teams.microsoft.com/l/team/19%3a3b04a0e7a517
 
 - **Thursday** and **Friday** lectures are remote --- they will be live-streamed. For specific lectures, pre-recorded lectures will be made available few days earlier and the lecture time will be used for discussions.
 
-- **Wednesday** lectures follow a hybrid model (in presence with an a-online stream available). Information about the live streams will be made available on the Teams channel. 
+- **Wednesday** lectures follow a blended model (in presence with an a-online stream available). Information about the live streams will be made available on the Teams channel. 
 
 The physical locations for the Wednesday lectures are below:
 
 \tableinput{}{lectures.csv}
 
 Instructions and links for the live stream will be made available on   [Teams](https://teams.microsoft.com/l/team/19%3a3b04a0e7a517448aa84b1525fe986553%40thread.tacv2/conversations?groupId=3734028b-c82f-4a44-90d0-e5d52f8df440&tenantId=c7456b31-a220-47f5-be52-473828670aa1)).
+
+
+\note{
+There is a **Tuesday slot (14:00, B01 Piagge)** reserved for blended lectures and lab sessions. We will move the Friday or the Thursday lecture to this slot from time to time. 
+
+We will communicate in advance when the Tuesday lecture slot is used.
+}
 
 # Evaluation
 
