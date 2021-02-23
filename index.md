@@ -16,7 +16,7 @@ About a third of the lectures will be devoted to empirical applications. They wi
 
  - Basic Asymptotic Theory
  - Single Equation Linear Model and Ordinary Least Squares Estimation
- - Instrumental Variables of Single Equation Models
+ - Instrumental Variables Estimation of Single Equation Models
  - Basic Linear Unobserved Panel Data Models
  - Binary Response Models
  - General Estimation Framework for Nonlinear Models (GMM, MLE)
