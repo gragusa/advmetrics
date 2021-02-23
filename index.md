@@ -37,15 +37,15 @@ A dedicated [Teams channel](https://teams.microsoft.com/l/team/19%3a3b04a0e7a517
 
 ### Lectures 
 
-- **Thursday** and **Friday** lectures are remote --- they will be live-streamed. For specific lectures, pre-recorded lectures will be made available few days earlier and the lecture time will be used for discussions.
+- **Thursday** (9:00-10:30) and **Friday** (8:45-10:15) lectures are remote --- they will be live-streamed. For specific lectures, pre-recorded lectures will be made available few days earlier and the lecture time will be used for discussions.
 
-- **Wednesday** lectures follow a blended model (in presence with an a-online stream available). Information about the live streams will be made available on the Teams channel. 
+- **Wednesday** (12:15-1:45) lectures follow a blended model (in presence with an a-online stream available). Information about the live streams will be made available on the Teams channel. 
 
-The physical locations for the Wednesday lectures are below:
+The physical locations for the _Wednesday_ lectures are below:
 
 \tableinput{}{lectures.csv}
 
-Instructions and links for the live stream will be made available on   [Teams](https://teams.microsoft.com/l/team/19%3a3b04a0e7a517448aa84b1525fe986553%40thread.tacv2/conversations?groupId=3734028b-c82f-4a44-90d0-e5d52f8df440&tenantId=c7456b31-a220-47f5-be52-473828670aa1)).
+Links and instructions for the live streams will be made available on [Teams](https://teams.microsoft.com/l/team/19%3a3b04a0e7a517448aa84b1525fe986553%40thread.tacv2/conversations?groupId=3734028b-c82f-4a44-90d0-e5d52f8df440&tenantId=c7456b31-a220-47f5-be52-473828670aa1)).
 
 
 \note{
