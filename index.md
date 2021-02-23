@@ -24,7 +24,7 @@ About a third of the lectures will be devoted to empirical applications. They wi
 
 # Meet the instructors
 
-Lecturers: Laura Magazzini, [Giuseppe Ragusa](https://gragusa.org)
+Lecturers: [Laura Magazzini](https://sites.google.com/site/magazzinilaura/home), [Giuseppe Ragusa](https://gragusa.org)
 
 Teaching assistant: _to be announced_
 
