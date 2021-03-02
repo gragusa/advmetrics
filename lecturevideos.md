@@ -4,4 +4,8 @@ Below are the link to the lecture videos. Each video will be made usually availa
 
 - [Lecture 2](https://unipiit.sharepoint.com/sites/a__td_47260/Shared%20Documents/General/Lecture%20Videos/Lecture02_02252021.mp4) (25/02/2021)
 
-- Lecture 3 (26/02/2021)
+- [Lecture 3](https://unipiit.sharepoint.com/sites/a__td_47260/Shared%20Documents/General/Lecture%20Videos/Lecture3_02262021.mp4) (26/02/2021)
+
+- Lecture 5
+
+- Lecture 6
