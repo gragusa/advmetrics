@@ -9,123 +9,92 @@ output:
     keep_md: yes
 editor_options:
   markdown:
-    wrap: 72
+    wrap: 78
 ---
 
-1.  Use `R` to generate $n=200$ observations from the following model
-    $$y_{i}=\beta_{0}+\beta_{1}x_{i}+u_{i},\quad n=1,\ldots,200$$ where
-    $x_{i}$ and $u_{i}$ are independent and $(u_{i},x_{i})$ is
-    [independent]{.ul} of $(u_{j},x_{j})$ for $i\neq j$;
-    $$u_{i}\sim\chi_{3}^{2},\quad x_{i}\sim N(0,1),$$ and
-    $\beta_{0}=0.5$ and $\beta_{1}=0.3$. ($\chi_{p}^{2}$ is the chi
-    squared distribution with $p$ degrees of freedoms).
+1.  Use `R` to generate $n=200$ observations from the following model $$y_{i}=\beta_{0}+\beta_{1}x_{i}+u_{i},\quad n=1,\ldots,200$$ where $x_{i}$ and $u_{i}$ are independent and $(u_{i},x_{i})$ is [independent]{.ul} of $(u_{j},x_{j})$ for $i\neq j$; $$u_{i}\sim\chi_{3}^{2},\quad x_{i}\sim N(0,1),$$ and $\beta_{0}=0.5$ and $\beta_{1}=0.3$. ($\chi_{p}^{2}$ is the chi squared distribution with $p$ degrees of freedoms).
 
-::: {#Q1 .answerbox}
-```{r}
-beta0 <- 0.5
-beta1 <- 0.3
-n <- 200
-u <- rchisq(n, df = 3)
-x <- rnorm(n)
-y <- beta0 + beta1 * x + u
-plot(x, y, pch = 19, col = "darkgreen")
-```
-:::
+    ::: {#Q1 .answerbox}
+    <!-- Put your answer here -->
+    :::
 
-2.  Using the data generated in the previous model to estimate the
-    $\beta_{0}$ and $\beta_{1}$ using OLS.
+2.  Using the data generated in the previous model to estimate the $\beta_{0}$ and $\beta_{1}$ using OLS.
 
-::: {#Q2 .answerbox}
-<!-- Put your answer here -->
-:::
+    ::: {#Q2 .answerbox}
+    <!-- Put your answer here -->
+    :::
 
-3.  Calculate the variance of the asymptotic distribution of
-    $\hat{\beta}_{1}$ that is appropriate for the assumption of the
-    model. (*(Note: You can use the output from `lm`, `summary` and
-    other methods in packages, e.g. `sandwich`, but you will get extra
-    credit if you try to calculate the variance without relying on
-    them.))*
+3.  Calculate the variance of the asymptotic distribution of $\hat{\beta}_{1}$ that is appropriate for the assumption of the model. *(Note: You can use the output from `lm`, `summary` and other methods in packages, e.g. `sandwich`, but you will get extra credit if you try to calculate the variance without relying on them.)*
 
-::: {#Q3 .answerbox}
-<!-- Put your answer here -->
-:::
+    ::: {#Q3 .answerbox}
+    <!-- Put your answer here -->
+    :::
 
-<!-- Please, keep the alignment of `:::` -->
 
 4.  Construct a $90\%$ confidence interval for $\beta_{1}$.
 
-::: {#Q4 .answerbox}
-<!-- Put your answer here -->
-:::
+    ::: {#Q4 .answerbox}
+    <!-- Put your answer here -->
+    :::
 
-5.  Since you generated the data yourself, you know which assumptions
-    hold for the model above. Answer the question below providing a
-    brief, but meaningful, justification:
+5.  Since you generated the data yourself, you know which assumptions hold for the model above. Answer the question below providing a brief, but meaningful, justification:
 
     1.  Is OLS unbiased for $\beta_{0}$?
 
-    ::: {#Q5-1 .answerbox}
-    <!-- Put your answer here -->
-    :::
+        ::: {#Q5-1 .answerbox}
+        <!-- Put your answer here -->
+        :::
 
     2.  Is OLS unbiased for $\beta_{1}$?
 
-    ::: {#Q5-2 .answerbox}
-    <!-- Put your answer here -->
-    :::
+        ::: {#Q5-2 .answerbox}
+        <!-- Put your answer here -->
+        :::
 
     3.  Is the model conditionally homoscedastic?
 
-    ::: {#Q5-3 .answerbox}
-    <!-- Put your answer here -->
-    :::
+        ::: {#Q5-3 .answerbox}
+        <!-- Put your answer here -->
+        :::
 
     4.  Is $\hat{\beta}_{1}$ estimating the partial effect?
 
-    ::: {#Q5-4 .answerbox}
+        ::: {#Q5-4 .answerbox}
+        <!-- Put your answer here -->
+        :::
+
+    5.  Can you derive the small sample distribution of $\hat{\beta}_{1}$ or
+        you need more assumptions?
+
+        ::: {#Q5-5 .answerbox}
+        <!-- Put your answer here -->
+        :::
+
+6.  Suppose that instead of running a regression of $y_{i}$ on $x_{i}$, you run the regression of $x_{i}$ and $y_{i}$, that is you switch the dependent and independent variables $$x_{i}=\gamma_{0}+\gamma_{1}y_{i}+\eta_{i}.$$ Report your estimates of $\gamma_{1}$.
+
+    ::: {#Q6 .answerbox}
     <!-- Put your answer here -->
     :::
 
-    5.  Can you derive the small sample distribution of
-        $\hat{\beta}_{1}$ or you need more assumptions?
+7.  What is $\gamma_{1}$ estimating, i.e. can you give the probability limit of $\hat{\gamma}_{1}$?
 
-    ::: {#Q5-5 .answerbox}
+    ::: {#Q7 .answerbox}
     <!-- Put your answer here -->
     :::
 
-6.  Suppose that instead of running a regression of $y_{i}$ on $x_{i}$,
-    you run the regression of $x_{i}$ and $y_{i}$, that is you switch
-    the dependent and independent variables
-    $$x_{i}=\gamma_{0}+\gamma_{1}y_{i}+\eta_{i}.$$ Report your estimates
-    of $\gamma_{1}$.
+8.  Find the asymptotic distribution of the estimator defined aa $\hat{\xi}=1/\hat{\beta}_{1}$ where $\hat{\beta}_{1}$ is the OLS estimator of point (2). (*Hint: use the Delta Method.*)
 
-::: {#Q6 .answerbox}
-<!-- Put your answer here -->
-:::
+    ::: {#Q8 .answerbox}
+    <!-- Put your answer here -->
+    :::
 
-7.  What is $\gamma_{1}$ estimating, i.e. can you give the probability
-    limit of $\hat{\gamma}_{1}$?
-
-::: {#Q7 .answerbox}
-<!-- Put your answer here -->
-:::
-
-8.  Find the asymptotic distribution of the estimator defined as
-    $\hat{\xi}=1/\hat{\beta}_{1}$ where $\hat{\beta}_{1}$ is the OLS
-    estimator of point (2). (*Hint: use the Delta Method.*)
-
-::: {.answerbox}
-<!-- Put your answer here -->
-:::
-
-9.  How the answers to [Question 5]{.ul} would change if you simulated
-    the data from
-    $$y_{i}=\beta_{0}+\beta_{1}x_{i}+u_{i},\quad n=1,\ldots,200$$ where
-    now $x_i$ and $u_i$ are generate according to
+9.  How the answers to [Question 5]{.ul} would change if you simulated the
+    data from $$y_{i}=\beta_{0}+\beta_{1}x_{i}+u_{i},\quad n=1,\ldots,200$$
+    where now $x_i$ and $u_i$ are generate according to
     $$x_{i}\sim N(0,1),\quad u_{i}=\sqrt{x_{i}^{2}}\times\varepsilon_{i},\quad\varepsilon_{i}\sim\chi_{3}^{2},$$
-    and the parameters are $\beta_{0}=0.5$ and $\beta_{1}=0.3$? Give the
-    OLS estimates and the appropriate standard errors.
+    and the parameters are $\beta_{0}=0.5$ and $\beta_{1}=0.3$? Give the OLS
+    estimates and the appropriate standard errors.
 
-::: {#Q8 .answerbox}
-<!-- Put your answer here -->
-:::
+    ::: {#Q9 .answerbox}
+    <!-- Put your answer here -->
+    :::
