@@ -1,21 +1,16 @@
 ---
 title: "Homework Assignment 1"
-subtitle: 246PP - Advanced Econometrics 2020/2021
+subtitle: "246PP - Advanced Econometrics 2020/2021"
+author: "Your Name Here, ID: your id here"
 output:
-  html_notebook:
+  html_document: 
+    theme: default
     css: hw.css
-editor_options: 
-  markdown: 
+    keep_md: yes
+editor_options:
+  markdown:
     wrap: 72
 ---
-
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. Please,
-complete your answer in the boxes below and place `hw.css` in the same
-directory of your file.
-
-This homework assignment is due back on Thursday, March 25 (before
-23:59) using the procedure described in the [Homework Assignments Teams
-Channel](https://teams.microsoft.com/l/channel/19%3a3a938b4e40ce466a9cf5bbdcffa124f4%40thread.tacv2/Homework%2520Assignments?groupId=3734028b-c82f-4a44-90d0-e5d52f8df440&tenantId=c7456b31-a220-47f5-be52-473828670aa1).
 
 1.  Use `R` to generate $n=200$ observations from the following model
     $$y_{i}=\beta_{0}+\beta_{1}x_{i}+u_{i},\quad n=1,\ldots,200$$ where
@@ -26,7 +21,15 @@ Channel](https://teams.microsoft.com/l/channel/19%3a3a938b4e40ce466a9cf5bbdcffa1
     squared distribution with $p$ degrees of freedoms).
 
 ::: {#Q1 .answerbox}
-<!-- Put your answer here -->
+```{r}
+beta0 <- 0.5
+beta1 <- 0.3
+n <- 200
+u <- rchisq(n, df = 3)
+x <- rnorm(n)
+y <- beta0 + beta1 * x + u
+plot(x, y, pch = 19, col = "darkgreen")
+```
 :::
 
 2.  Using the data generated in the previous model to estimate the
