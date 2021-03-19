@@ -31,7 +31,7 @@ Please, type your answer to each question (both code and text) between the `:::`
 
 _Note:_ If you are using the live markdown feature of Rstudio, then you won't see the marks, but rather just  `<!-- Put your answer here -->` on a shadowed area. Type your answer in this area.
 
-_Note:_ For a better experience, you can download [hw.css](./asset/hw.css) and place it in the same directory of the `Rmd` file. Then, in the preview (obtained when you hit the preview button), you will be able to distinguish your answer from the question text. 
+_Note:_ For a better experience, you can download [hw.css](../assets/hw.css) and place it in the same directory of the `Rmd` file. Then, in the preview (obtained when you hit the preview button), you will be able to distinguish your answer from the question text. 
 
 Once you finish editing your homework, please follow the instructions on the [Homework Assignments Teams Channel](https://teams.microsoft.com/l/channel/19%3a3a938b4e40ce466a9cf5bbdcffa124f4%40thread.tacv2/Homework%2520Assignments?groupId=3734028b-c82f-4a44-90d0-e5d52f8df440&tenantId=c7456b31-a220-47f5-be52-473828670aa1) about the submission. 
 
