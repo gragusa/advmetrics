@@ -4,7 +4,7 @@ Below are the links to the homework assignments. See the [instruction section](#
 
 ## Download
 
-- Homework Assignment 1 [Rmd](../../assets/homework1.Rmd) [PDF](../../assets/homework1.pdf)
+- Homework Assignment 1 [Rmd](../assets/Homework1.Rmd) [PDF](../assets/Homework1.pdf)
 
   The homework assignment is due back on Thursday, March 25 (before 23:59) using the procedure described in the [Homework Assignments Teams Channel](https://teams.microsoft.com/l/channel/19%3a3a938b4e40ce466a9cf5bbdcffa124f4%40thread.tacv2/Homework%2520Assignments?groupId=3734028b-c82f-4a44-90d0-e5d52f8df440&tenantId=c7456b31-a220-47f5-be52-473828670aa1).
 
