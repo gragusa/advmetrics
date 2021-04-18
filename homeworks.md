@@ -8,11 +8,14 @@ Below are the links to the homework assignments. See the [instruction section](#
   [[Proposed Solutions](https://www.dropbox.com/s/cytov7j4v52c3kv/Homework1_solution.pdf?dl=1)]
   
 
-- **Homework Assignment 2** [[Rmd](https://www.dropbox.com/s/xfa2pfaclitdjsq/Homework2.Rmd?dl=1)] [[PDF](https://www.dropbox.com/s/walm6s8y1qtmdxg/Homework2.pdf?dl=1)]
-   The homework assignment is due back on Thursday, April 8 (before 23:00). 
-   Your work can be submitted [here](https://www.dropbox.com/request/FMxpodMppujTKOYCI0nP) (dropbox file request)
+- Homework Assignment 2 [[Rmd](https://www.dropbox.com/s/xfa2pfaclitdjsq/Homework2.Rmd?dl=1)] [[PDF](https://www.dropbox.com/s/walm6s8y1qtmdxg/Homework2.pdf?dl=1)]
 
 - Homework Assignment 3
+- **Homework Assignment 2** [[Rmd](https://www.dropbox.com/s/1pi8wzrgx9zaqyv/Homework3.Rmd?dl=0)] [[PDF](https://www.dropbox.com/s/mv3sv4mlgfp5xiw/Homework3.pdf?dl=1)]
+   The homework assignment is due back on Sunday, May 2 (before 23:00). 
+   Your work can be submitted [here](https://www.dropbox.com/request/8RtXWqIchPTYXYrq2i4z) (dropbox file request)
+
+
 
 ## Instructions
 The assignments must be completed using some features available in  [Rstudio](https://rstudio.com/). In particular, we will make heavy use of `R markdown`. 
