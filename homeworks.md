@@ -1,4 +1,4 @@
-# Homework Assignments
+Homework Assignments
 
 Below are the links to the homework assignments. See the [instruction section](#instruction) below for instruction on how to _(i)_ properly answer the questions in the homework, and _(ii)_ submit it in teams. 
 
@@ -10,10 +10,12 @@ Below are the links to the homework assignments. See the [instruction section](#
 
 - Homework Assignment 2 [[Rmd](https://www.dropbox.com/s/xfa2pfaclitdjsq/Homework2.Rmd?dl=1)] [[PDF](https://www.dropbox.com/s/walm6s8y1qtmdxg/Homework2.pdf?dl=1)]
 
-- Homework Assignment 3
-- **Homework Assignment 2** [[Rmd](https://www.dropbox.com/s/1pi8wzrgx9zaqyv/Homework3.Rmd?dl=0)] [[PDF](https://www.dropbox.com/s/mv3sv4mlgfp5xiw/Homework3.pdf?dl=1)]
-   The homework assignment is due back on Sunday, May 2 (before 23:00). 
-   Your work can be submitted [here](https://www.dropbox.com/request/8RtXWqIchPTYXYrq2i4z) (dropbox file request)
+- **Homework Assignment 3**
+  [[Rmd](https://www.dropbox.com/s/1pi8wzrgx9zaqyv/Homework3.Rmd?dl=0)]
+  [[PDF](https://www.dropbox.com/s/mv3sv4mlgfp5xiw/Homework3.pdf?dl=1)]
+  [[Data (zip)](https://www.dropbox.com/s/yfh18420ce82dki/ItalianHouseholdConsumption.csv.zip?dl=1)]
+  Homework assignment #3 is due back on Sunday, May 2 (before 23:00). 
+  Your work can be submitted [here](https://www.dropbox.com/request/8RtXWqIchPTYXYrq2i4z) (dropbox file request)
 
 
 
