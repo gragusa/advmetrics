@@ -28,3 +28,7 @@ Below are the links to the video of each lecture. Videos will be typically made 
 - [Lecture 19](https://unipiit.sharepoint.com/sites/a__td_47260/Shared%20Documents/General/Lecture%20Videos/Lecture19-16042021.mp4)
 
   - [R script](https://unipiit.sharepoint.com/sites/a__td_47260/Shared%20Documents/General/Notes/dipendenti.R) [data]()
+
+- [Lecture 21](https://unipiit.sharepoint.com/sites/a__td_47260/Shared%20Documents/General/Lecture%20Videos/Lecture21-22042021.mp)
+
+- [Lecture 22](https://unipiit.sharepoint.com/sites/a__td_47260/Shared%20Documents/General/Lecture%20Videos/Lecture22-23042021.mp4)
