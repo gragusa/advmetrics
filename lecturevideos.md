@@ -36,3 +36,8 @@ Below are the links to the video of each lecture. Videos will be typically made 
 - [Lecture 24](https://unipiit.sharepoint.com/sites/a__td_47260/Shared%20Documents/General/Lecture%20Videos/Lecture24-29042021.mp4)
 
 - [Lecture 25](https://unipiit.sharepoint.com/sites/a__td_47260/Shared%20Documents/General/Lecture%20Videos/Lecture25-30042021.mp4)
+
+- [Lecture
+  27](https://unipiit.sharepoint.com/sites/a__td_47260/Shared%20Documents/General/Lecture%20Videos/Lecture27-06052021.mp4)
+  
+- [Lecture 28](https://unipiit.sharepoint.com/sites/a__td_47260/Shared%20Documents/General/Lecture%20Videos/Lecture27-06052021.mp4)
