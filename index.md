@@ -82,11 +82,14 @@ The homework assignments will count toward the average if the student received a
 
 **On the date of the appello right after the end of lectures,** the course grade is the maximum between
 
-1. the weighted average of the miterm's grade (30%), final's grade (40%) and the grades on the homework assignments (30%)
+1. the weighted average of the miterm's grade (30%), final's grade (30%) and the grades on the homework assignments (40%)
 
 2. the weighted average of the miterm's grade (30%) and the comprehensive final's grade (70%) 
 
-3. the comprehensive final's grade
+3. the weighted average of the homework assignemnts grades (30%) and the comprehensive final's grade (70%) 
+
+
+5. the comprehensive final's grade
 
 
 \note{
