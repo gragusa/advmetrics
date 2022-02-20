@@ -16,11 +16,18 @@ About a third of the lectures will be devoted to empirical applications. They wi
 
  - Basic Asymptotic Theory
  - Single Equation Linear Model and Ordinary Least Squares Estimation
- - Instrumental Variables Estimation of Single Equation Models
- - Basic Linear Unobserved Panel Data Models
  - Binary Response Models
+ - Instrumental Variables Estimation of Single Equation Models
+ - Linear Unobserved Panel Data Models
  - General Estimation Framework for Nonlinear Models (GMM, MLE)
  - Special topic: Program Evaluation (if time allows)
+
+# Textbooks
+
+The textbook that we will use is:
+
+_Wooldridge, Jeffrey M. Econometric analysis of cross section and panel data. MIT press, 2010._
+
 
 # Meet the instructors
 
@@ -57,7 +64,7 @@ There is a **Tuesday slot (14:00, B01 Piagge)** reserved for blended lectures an
 We will communicate in advance when the Tuesday lecture slot is used.
 } -->
 
-# Evaluation
+# Assessment
 
 The final grade will depend on several **homework assignments**, a **midterm exam**, a **comprehensive final exam**.
  
