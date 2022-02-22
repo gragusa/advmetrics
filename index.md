@@ -24,9 +24,13 @@ About a third of the lectures will be devoted to empirical applications. They wi
 
 # Textbooks
 
-The textbook that we will use is:
+The textbooks that we will use are:
 
 _Wooldridge, Jeffrey M. Econometric analysis of cross section and panel data. MIT press, 2010._
+
+
+Florian Heiss: Using R for Introductory Econometrics [http://www.urfie.net/](http://www.urfie.net/)
+
 
 
 # Meet the instructors
