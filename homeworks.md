@@ -1,6 +1,6 @@
 # Homework Assignments
 
-Below are the links to the homework assignments. In addition, see the [instructions](#instruction) on how to _(i)_ properly answer the questions in the homework and _(ii)_ submit them for evaluation. 
+Below are the links to the homework assignments. In addition, see the [instructions](#instructions) on how to _(i)_ properly answer the questions in the homework and _(ii)_ submit them for evaluation. 
 
 ## Download
 
