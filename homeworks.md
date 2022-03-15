@@ -10,7 +10,7 @@ Below are the links to the homework assignments. In addition, see the [instructi
   
   To submit your homework assignment, use the following link: [submission link](https://www.dropbox.com/request/h3Zt93VA7Empmakj3iWk)  
 
-  **Deadline:** [Thuersday, March, 18 2022 at 23:00]()
+  **Deadline:** [Thuersday, March, 17 2022 at 23:00]()
 - Homework Assignment 2 
 
 - Homework Assignment 3
