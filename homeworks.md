@@ -11,7 +11,14 @@ Below are the links to the homework assignments. In addition, see the [instructi
   To submit your homework assignment, use the following link: [submission link](https://www.dropbox.com/request/h3Zt93VA7Empmakj3iWk)  
 
   **Deadline:** [Thuersday, March, 17 2022 at 23:00]()
+
 - Homework Assignment 2 
+
+  [[Rmd]](https://www.dropbox.com/s/xfa2pfaclitdjsq/Homework2.Rmd?dl=1) [[NextJournal]](https://nextjournal.com/a/Q3GnKmSKFTbExgtj7uTXF?token=TwbjncRK8u3RnYgZDESjt8)
+
+  To submit your homework assignment, use the following link: [submission link](https://www.dropbox.com/request/TpOSM2JtvtxnBHX1kcYy)  
+
+  **Deadline:** [Thuersday, March, 31 2022 at 23:00]()
 
 - Homework Assignment 3
 
