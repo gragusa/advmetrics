@@ -18,13 +18,18 @@ Below are the links to the homework assignments. In addition, see the [instructi
 
   To submit your homework assignment, use the following link: [submission link](https://www.dropbox.com/request/TpOSM2JtvtxnBHX1kcYy)  
 
-  **Deadline:** [Thuersday, March, 31 2022 at 23:00]()
+  **Deadline:** [Thuersday, March 31, 2022 at 23:00]()
 
 - Homework Assignment 3
+[[Rmd]](https://www.dropbox.com/s/9dnhyje3g4x46e5/Homework3_applied.Rmd?dl=1) [[NextJournal]](https://nextjournal.com/a/QBzk5Yw3BfRQcsegKgCMr?token=UXH12bRAhBKJ3DWpRMNoGg)
+
+To submit your homework assignment, use the following link: [submission link](https://www.dropbox.com/request/PrsmEH2yUnemiFsYvwSB)  
+
+  **Deadline:** [Thuersday, May 12, 2022 at 24:00]()
 
 - Homework Assignment 4
 
-- Homework Assignment 5
+
 
 ## Instructions
 The assignments must be completed either using [Rstudio](https://rstudio.com/) or using [NextJournal](https://nextjournal.com). 
