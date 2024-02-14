@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "material.html",
+    "href": "material.html",
+    "title": "Notes",
+    "section": "",
+    "text": "Note and other teaching material will be posted here."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Advanced Econometrics (1018133)",
+    "section": "",
+    "text": "Prof. Giuseppe Ragusa\n   Sapienza, University of Rome\n   Department of Economics and Law\n   Viale del Castro Laurenziano, 9\n   giuseppe.ragusa at uniroma1 dot it\n   Office Hours\n\n\n\n\n\n   Monday (M) and Tuesday (T)\n   19 February, 2024 - 1 June 2024\n   (M) 10:00–12:00 (T) 12:00-14:00\n   (M&T) Auletta di lingue - A"
+  },
+  {
+    "objectID": "index.html#course-descriptions",
+    "href": "index.html#course-descriptions",
+    "title": "Advanced Econometrics (1018133)",
+    "section": "Course descriptions",
+    "text": "Course descriptions\nAdvanced Econometrics (1018133) aims to provide a comprehensive understanding of classical econometric theory alongside its contemporary applications in empirical analysis. Central to the course is the exploration of methodologies for estimating causal relationships among economic variables and constructing forecasts in time series.\nThe course has a theoretical and an empirical component. The theoretical one explores the asymptotic justification of many estimators routinely used to estimate the parameters of econometric models. The applied one applies these techniques to real data using Python."
+  },
+  {
+    "objectID": "index.html#topics",
+    "href": "index.html#topics",
+    "title": "Advanced Econometrics (1018133)",
+    "section": "Topics",
+    "text": "Topics\nThroughout the course, students will engage with a diverse array of topics spanning cross-section and time series models. These topics include:\nPart I: Cross-section\n\nAsymptotic Theory\nSingle equation Linear Model\nInstrumental Variables of Single Equation Models\nBasic Linear Unobserved Panel Data Models\nCounterfactual framework and friends\n\nPart I: Time Series\n\nLinear univariate time series models: ARMA\n\nStationarity vs. Stochastic trends\nEstimation and inference\n\nLinear multivariate models: Vector Autoregressive models\n\nEstimation\nStructural identification of impulse response functions\n\nDynamic Factor Models\n\nEstimation and forecast"
+  },
+  {
+    "objectID": "index.html#textbooks",
+    "href": "index.html#textbooks",
+    "title": "Advanced Econometrics (1018133)",
+    "section": "Textbooks",
+    "text": "Textbooks\nThe course covers material outlined in the following two advanced textbooks:\n\nWooldridge, J. M.: “Econometric Analysis of Cross Section and Panel Data.” Published by MIT Press in 2010.\nHamilton, James D.: “Time Series Analysis.” Published by Princeton University Press in 2020.\n\nGiven the advanced nature of these textbooks, notes will be provided when necessary to aid in the understanding and application of the material."
+  },
+  {
+    "objectID": "index.html#assessment",
+    "href": "index.html#assessment",
+    "title": "Advanced Econometrics (1018133)",
+    "section": "Assessment",
+    "text": "Assessment\nThe final grade will depend on several homework assignments and a comprehensive final exam.\nThe comprehensive final is given on each appello, while the assignments are given when the course is in session. The assignments are optional while scoring at least 18/30 on the comprehensive final is a mandatory requirement to pass the course.\nMore specifically, the grade is so determined.\n\nOn the date of the first appello after the end of the course, the grade is the maximum between (i) the score on the final exam, and (ii) the average of the score on the final exam and the scores on each homework assignments.\n\n\n\n\n\n\nImportant\n\n\n\nThe homework assignments will count toward the average if the student obtains a score of at least 18/30 on each of them.\n\n\nOn subsequent appelli, the course grade is simply the grade on the comprehensive final exam which will include an oral component."
+  },
+  {
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "Assignments",
+    "section": "",
+    "text": "Assignments will be posted here. assignments"
+  },
+  {
+    "objectID": "indexm.html",
+    "href": "indexm.html",
+    "title": "Advanced Econometrics (1018133)",
+    "section": "",
+    "text": "Prof. Giuseppe Ragusa\n   Sapienza, University of Rome\n   Department of Economics and Law\n   Viale del Castro Laurenziano, 9\n   giuseppe.ragusa at uniroma1 dot it\n   Ricevimento\n\n\n\n\n\n   Monday (M) and Tuesday (T)\n   19 february, 2024 - 1 giugno 2024\n   (M) 10:00–12:00 (T) 12:00-14:00\n   (M) Auletta (T) Auletta"
+  },
+  {
+    "objectID": "indexm.html#descrizione-del-corso",
+    "href": "indexm.html#descrizione-del-corso",
+    "title": "Advanced Econometrics (1018133)",
+    "section": "Descrizione del corso",
+    "text": "Descrizione del corso\nAdvanced Econometrics (1018133) offre agli studenti un’introduzione pratica all’econometria, strumento fondamentale per comprendere e analizzare l’economia da un punto di vista empirico. Attraverso un approccio equilibrato tra teoria e pratica, gli studenti esploreranno i concetti fondamentali e gli strumenti empirici necessari per comprendere le sfide relative all’impiego di tecniche quantitative in microeconomia, macroeconomia e finanza."
+  }
+]

@@ -1,0 +1,30 @@
+author: Giuseppe Ragusa
+
+instructor:
+  name: Prof. Giuseppe Ragusa
+  name_no_title: Giuseppe Ragusa
+  email: giuseppe.ragusa@uniroma1.it
+  url: "https://www.gragusa.org"
+  github: gragusa
+  office: "Viale del Castro Laurenziano, 9"
+  appointment_url: https://calendar.app.google/thUEie9MmaqzEMib9
+
+course:
+  name: "Advanced Econometrics"
+  number: "1018133"
+  semester: "2023-2024"
+  days: "Monday (M) and Tuesday (T)"
+  time: "(M) 10:00–12:00 (T) 12:00-14:00"
+  location: "(M&T) Auletta di lingue - A"
+  dates: "19 February, 2024 - 1 June 2024"
+  github: "https://www.github.com/gragusa/advmetrics"
+  url: "https://gragusa.org/advmetrics"
+  copyright_year: "2023-2024"
+
+university:
+  name: Sapienza, University of Rome
+  url: "https://www.uniroma1.it"
+
+school:
+  name: Department of Economics and Law
+  url: "https://web.uniroma1.it/dip_ecodir/"

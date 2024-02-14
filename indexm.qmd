@@ -1,0 +1,40 @@
+---
+title: "{{< var course.name >}} ({{< var course.number >}})"
+subtitle: "Canele M-Z"
+sidebar: false
+toc: false
+---
+
+
+::: {.grid .course-details}
+
+::: {.g-col-6}
+### Docente
+
+- {{< fa user >}} &nbsp; [{{< var instructor.name >}}]({{< var instructor.url >}})
+- {{< fa university >}} &nbsp; {{< var university.name >}}
+- {{< fa university >}} &nbsp; {{< var school.name >}}
+- {{< fa university >}} &nbsp; {{< var instructor.office >}}
+- {{< fa envelope >}} &nbsp; [{{< var instructor.email >}}](mailto:{{< var instructor.email >}})
+- {{< fa calendar-check >}} &nbsp; [Ricevimento]({{< var instructor.appointment_url >}})
+:::
+
+::: {.g-col-6}
+### Dettagli del corso
+
+- {{< fa calendar >}} &nbsp; {{< var course.days >}}
+- {{< fa calendar-alt >}} &nbsp; {{< var course.dates >}}
+- {{< fa clock >}} &nbsp; {{< var course.time >}}
+- {{< fa location-dot >}} &nbsp; {{< var course.location >}}
+
+:::
+
+:::
+
+## Descrizione del corso
+
+[{{< var course.name >}} ({{< var course.number >}})]{.coursename} offre agli studenti un'introduzione pratica all'econometria, strumento fondamentale per comprendere e analizzare l’economia da un punto di vista empirico. Attraverso un approccio equilibrato tra teoria e pratica, gli studenti esploreranno i concetti fondamentali e gli strumenti empirici necessari per comprendere le sfide relative all’impiego di tecniche quantitative in microeconomia, macroeconomia e finanza. 
+
+
+
+

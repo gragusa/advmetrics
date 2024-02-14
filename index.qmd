@@ -1,0 +1,105 @@
+---
+title: "{{< var course.name >}} ({{< var course.number >}})"
+sidebar: false
+toc: false
+---
+
+
+::: {.grid .course-details}
+
+::: {.g-col-6}
+### Instructor
+
+- {{< fa user >}} &nbsp; [{{< var instructor.name >}}]({{< var instructor.url >}})
+- {{< fa university >}} &nbsp; {{< var university.name >}}
+- {{< fa university >}} &nbsp; {{< var school.name >}}
+- {{< fa university >}} &nbsp; {{< var instructor.office >}}
+- {{< fa envelope >}} &nbsp; [{{< var instructor.email >}}](mailto:{{< var instructor.email >}})
+- {{< fa calendar-check >}} &nbsp; [Office Hours]({{< var instructor.appointment_url >}})
+:::
+
+::: {.g-col-6}
+### Course details
+
+- {{< fa calendar >}} &nbsp; {{< var course.days >}}
+- {{< fa calendar-alt >}} &nbsp; {{< var course.dates >}}
+- {{< fa clock >}} &nbsp; {{< var course.time >}}
+- {{< fa location-dot >}} &nbsp; {{< var course.location >}}
+
+:::
+
+:::
+
+## Course descriptions
+
+[{{< var course.name >}} ({{< var course.number >}})]{.coursename} aims to provide a comprehensive understanding of classical econometric theory alongside its contemporary applications in empirical analysis. Central to the course is the exploration of methodologies for estimating causal relationships among economic variables and constructing forecasts in time series.
+
+The course has a theoretical and an empirical component. The theoretical one explores the asymptotic justification of many estimators routinely used to estimate the parameters of econometric models. The applied one applies these techniques to real data using Python. 
+
+
+
+
+<!-- 
+Python is used This course's empirical component necessitates utilizing a computer program. Python is the optimal choice due to its widespread adoption and versatile capabilities, facilitating econometric analysis and providing students with a valuable skillset applicable across various domains.
+
+Python's prominence as the most widely used programming language globally underscores its importance beyond econometrics, offering students a gateway to proficiency in data science, machine learning, and finance. Its extensive libraries and intuitive syntax streamline econometric analysis. At the same time, active community support enhances accessibility and problem-solving capabilities, reinforcing Python's suitability as a foundational skill for students embarking on careers in quantitative analysis and beyond. -->
+
+## Topics
+
+Throughout the course, students will engage with a diverse array of topics spanning cross-section and time series models. These topics include:
+
+[Part I]{.high}: *Cross-section*
+
+a. Asymptotic Theory
+
+a. Single equation Linear Model 
+b. Instrumental Variables of Single Equation Models
+
+c. Basic Linear Unobserved Panel Data Models
+
+d. Counterfactual framework and friends
+
+[Part I]{.high}: *Time Series*
+
+a. Linear univariate time series models: ARMA 
+
+    i. Stationarity vs. Stochastic trends
+
+    ii. Estimation and inference
+
+b. Linear multivariate models: Vector Autoregressive models
+
+    i. Estimation 
+
+    ii. Structural identification of impulse response functions
+
+c. Dynamic Factor Models
+
+    i. Estimation and forecast
+
+## Textbooks
+
+The course covers material outlined in the following two advanced textbooks:
+
+1. Wooldridge, J. M.: "Econometric Analysis of Cross Section and Panel Data." Published by MIT Press in 2010.
+2. Hamilton, James D.: "Time Series Analysis." Published by Princeton University Press in 2020.
+
+Given the advanced nature of these textbooks, notes will be provided when necessary to aid in the understanding and application of the material.
+
+## Assessment
+
+The final grade will depend on several homework assignments and a comprehensive final exam.
+
+The comprehensive final is given on each _appello_, while the assignments are given when the course is in session. The assignments are optional while scoring at least 18/30 on the comprehensive final is a mandatory requirement to pass the course.
+
+More specifically, the grade is so determined. 
+
+- On the date of the first appello after the end of the course, the grade is the maximum between [_(i)_]{.high} the score on the final exam, and [_(ii)_]{.high} the average of the score on the final exam and the scores on each homework assignments.
+  
+  ::: {.callout-important}
+    The homework assignments will count toward the average if the student obtains a score of at least 18/30 on each of them.
+  :::
+- On subsequent _appelli_, the course grade is simply the grade on the comprehensive final exam which will include an oral component.
+
+
+
