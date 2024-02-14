@@ -2,5 +2,4 @@
 title: "Assignments"
 ---
 
-Assignments will be posted here. 
-assignments
+Assignments will be posted here.
