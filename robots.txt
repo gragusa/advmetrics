@@ -1,4 +1,1 @@
 Sitemap: https://gragusa.org/advmetrics/sitemap.xml
-
-User-agent: *
-Disallow:
