@@ -1,45 +1,78 @@
-name: Build and Deploy
 on:
   push:
     branches:
       - main
-      - master
+
+name: Render and Publish
+
+# you need these permissions to publish to GitHub pages
+permissions: 
+  contents: write
+  pages: write
+
 jobs:
-  build-and-deploy:
+  build-deploy:
     runs-on: ubuntu-latest
+    
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-      with:
-        persist-credentials: false
-    # NOTE: Python is necessary for the pre-rendering (minification) step
-    - name: Install python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.8'
-    # NOTE: Here you can install dependencies such as matplotlib if you use
-    # packages such as PyPlot.
-    # - run: pip install matplotlib
-    - name: Install Julia
-      uses: julia-actions/setup-julia@v1
-      with:
-        version: 1.5
-    # NOTE
-    #   The steps below ensure that NodeJS and Franklin are loaded then it
-    #   installs highlight.js which is needed for the prerendering step
-    #   (code highlighting + katex prerendering).
-    #   Then the environment is activated and instantiated to install all
-    #   Julia packages which may be required to successfully build your site.
-    #   The last line should be `optimize()` though you may want to give it
-    #   specific arguments, see the documentation or ?optimize in the REPL.
-    - run: julia -e '
-            using Pkg; Pkg.activate("."); Pkg.instantiate();
-            using NodeJS; run(`$(npm_cmd()) install highlight.js`);
-            using Franklin;
-            optimize()'
-    - name: Build and Deploy
-      uses: JamesIves/github-pages-deploy-action@releases/v3
-      with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: __site
+      - name: Check out repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          # To install LaTeX to build PDF book 
+          tinytex: false
+          # uncomment below and fill to pin a version
+          # version: SPECIFIC-QUARTO-VERSION-HERE
+      
+      # add software dependencies here and any libraries
+      
+      # From https://github.com/actions/setup-python
+      # - name: Setup Python
+      #   uses: actions/setup-python@v3
+
+      # From https://github.com/r-lib/actions/tree/v2-branch/setup-r
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v2
+
+      # From https://github.com/julia-actions/setup-julia
+      # - name: Setup Julia
+      #   uses: julia-actions/setup-julia@v1
+
+      # See more at https://github.com/quarto-dev/quarto-actions/blob/main/examples/example-03-dependencies.md
+
+      # To publish to Netlify, RStudio Connect, or GitHub Pages, uncomment
+      # the appropriate block below
+      
+      # - name: Publish to Netlify (and render)
+      #   uses: quarto-dev/quarto-actions/publish@v2
+      #   with:
+      #     target: netlify
+      #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        
+      # - name: Publish to RStudio Connect (and render)
+      #   uses: quarto-dev/quarto-actions/publish@v2
+      #   with:
+      #     target: connect
+      #     CONNECT_SERVER: enter-the-server-url-here
+      #     CONNECT_API_KEY: ${{ secrets.CONNECT_API_KEY }} 
+
+      # NOTE: If Publishing to GitHub Pages, set the permissions correctly (see top of this yaml)
+      - name: Publish to GitHub Pages (and render) 
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
+
+      # - name: Publish to confluence
+      #   uses: quarto-dev/quarto-actions/publish@v2
+      #   with:
+      #     target: confluence
+      #   env: 
+      #     CONFLUENCE_USER_EMAIL: ${{ secrets.CONFLUENCE_USER_EMAIL }}
+      #     CONFLUENCE_AUTH_TOKEN: ${{ secrets.CONFLUENCE_AUTH_TOKEN }}
+      #     CONFLUENCE_DOMAIN: ${{ secrets.CONFLUENCE_DOMAIN }}
+      
+
