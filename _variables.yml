@@ -12,10 +12,10 @@ instructor:
 course:
   name: "Advanced Econometrics"
   number: "1018133"
-  semester: "2023-2024"
+  semester: "2024-2025"
   days: "Tuesday (M) and Wednesday (T)"
   time: "(M) 10:00–12:00 (T) 10:00-12:00"
-  location: ""
+  location: "Aula Sergio Steve"
   dates: "17 February, 2025 - 31 May 2025"
   github: "https://www.github.com/gragusa/advmetrics"
   url: "https://gragusa.org/advmetrics"
