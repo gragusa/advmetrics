@@ -34,7 +34,7 @@ toc: false
 
 [{{< var course.name >}} ({{< var course.number >}})]{.coursename} aims to provide a comprehensive understanding of classical econometric theory alongside its contemporary applications in empirical analysis. Central to the course is the exploration of methodologies for estimating causal relationships among economic variables and constructing forecasts in time series.
 
-The course has a theoretical and an empirical component. The theoretical one explores the asymptotic justification of many estimators routinely used to estimate the parameters of econometric models. The applied one applies these techniques to real data using Python. 
+The course has a theoretical and an empirical component. The theoretical one explores the asymptotic justification of many estimators routinely used to estimate the parameters of econometric models. The applied one applies these techniques to real data. 
 
 
 

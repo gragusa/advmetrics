@@ -7,19 +7,19 @@ instructor:
   url: "https://www.gragusa.org"
   github: gragusa
   office: "Viale del Castro Laurenziano, 9"
-  appointment_url: https://calendar.app.google/thUEie9MmaqzEMib9
+  appointment_url: https://calendar.app.google/GqJnp3LKxM5ZQ3h37
 
 course:
   name: "Advanced Econometrics"
   number: "1018133"
   semester: "2023-2024"
-  days: "Monday (M) and Tuesday (T)"
-  time: "(M) 12:00–14:00 (T) 10:00-12:00"
-  location: "(M&T) Auletta di lingue - A"
-  dates: "19 February, 2024 - 1 June 2024"
+  days: "Tuesday (M) and Wednesday (T)"
+  time: "(M) 10:00–12:00 (T) 10:00-12:00"
+  location: ""
+  dates: "17 February, 2025 - 31 May 2025"
   github: "https://www.github.com/gragusa/advmetrics"
   url: "https://gragusa.org/advmetrics"
-  copyright_year: "2023-2024"
+  copyright_year: "2024-2025"
 
 university:
   name: Sapienza, University of Rome
