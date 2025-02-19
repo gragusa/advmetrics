@@ -15,10 +15,10 @@ execute:
 
 bibliography: files/bib/references.bib
 csl: files/bib/chicago-author-date.csl
-description-meta: "Advanced Econometrics 2023/2024 - Giuseppe Ragusa - Sapienza"
+description-meta: "Advanced Econometrics 2024/2025 - Giuseppe Ragusa - Sapienza"
 
 website:
-  title: "Advanced Econometrics (2023/2024)"
+  title: "Advanced Econometrics (2024/2025)"
   site-url: "https://gragusa.org/advmetrics/"
   site-path: "/advmetrics/"
   favicon: "/files/icon-512.png"
