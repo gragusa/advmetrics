@@ -23,8 +23,7 @@ jobs:
         with:
           # To install LaTeX to build PDF book
           tinytex: false
-          # uncomment below and fill to pin a version
-          # version: SPECIFIC-QUARTO-VERSION-HERE
+          version: 1.9.35
 
       # add software dependencies here and any libraries
 
@@ -57,6 +56,9 @@ jobs:
       #     target: connect
       #     CONNECT_SERVER: enter-the-server-url-here
       #     CONNECT_API_KEY: ${{ secrets.CONNECT_API_KEY }}
+
+      - name: Install Python dependencies
+        run: pip install pyyaml
 
       # NOTE: If Publishing to GitHub Pages, set the permissions correctly (see top of this yaml)
       - name: Publish to GitHub Pages (and render)

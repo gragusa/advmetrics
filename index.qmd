@@ -1,43 +1,75 @@
 ---
 title: "{{< var course.name >}} ({{< var course.number >}})"
-sidebar: true
+body-classes: page-home
 toc: true
 toc-depth: 4
 editor:
   render-on-save: true
+listing:
+  id: latest
+  contents: updates
+  sort: "date desc"
+  max-items: 4
+  date-format: "D MMM YYYY"
+  max-description-length: 400
+  template: _extensions/gragusa/academic/listings/dated-list.ejs
+  template-params:
+    empty: "No updates yet."
 ---
 
+::: {.course-hero}
+[Course {{< var course.number >}} · {{< var course.semester >}}]{.kicker}
 
-::: {.grid .course-details}
+# {{< var course.name >}} {.course-title}
 
-::: {.g-col-6}
-### Instructor
-
-- {{< fa user >}} &nbsp; [{{< var instructor.name >}}]({{< var instructor.url >}})
-- {{< fa university >}} &nbsp; {{< var university.name >}}
-- {{< fa university >}} &nbsp; {{< var school.name >}}
-- {{< fa university >}} &nbsp; {{< var instructor.office >}}
-- {{< fa envelope >}} &nbsp; [{{< var instructor.email >}}](mailto:{{< var instructor.email >}})
-- {{< fa calendar-check >}} &nbsp; [Office Hours]({{< var instructor.appointment_url >}})
+[{{< var school.name >}}, {{< var university.name >}}]{.lede}
 :::
 
-::: {.g-col-6}
-### Course details
-
-- {{< fa calendar >}} &nbsp; {{< var course.days >}}
-- {{< fa calendar-alt >}} &nbsp; {{< var course.dates >}}
-- {{< fa clock >}} &nbsp; {{< var course.time >}}
-- {{< fa location-dot >}} &nbsp; {{< var course.location >}}
-
+::: {.localnav}
+[Updates](updates.qmd) [Notes](material.qmd) [Assignments](assignments.qmd) [RSS feed](updates.xml)
 :::
 
+## Latest updates
+
+::: {#latest}
 :::
+
+::: {.more-links}
+[All updates](updates.qmd)
+:::
+
+## Instructor and course details
+
+:::: {.course-facts}
+::: {}
+[Instructor]{.fact-label} [{{< var instructor.name >}}]({{< var instructor.url >}})
+:::
+::: {}
+[Email]{.fact-label} [{{< var instructor.email >}}](mailto:{{< var instructor.email >}})
+:::
+::: {}
+[Office Hours]{.fact-label} [Book an appointment]({{< var instructor.appointment_url >}})
+:::
+::: {}
+[Office]{.fact-label} {{< var instructor.office >}}
+:::
+::: {}
+[Days]{.fact-label} {{< var course.days >}}
+:::
+::: {}
+[Time]{.fact-label} {{< var course.time >}}
+:::
+::: {}
+[Dates]{.fact-label} {{< var course.dates >}}
+:::
+::: {}
+[Rooms]{.fact-label} {{< var course.location >}}
+:::
+::::
 
 ## Subscribe to the Google Classroom
 
-Please join this course’s [Google Classroom](https://classroom.google.com/c/MjIwMjMxODA2MDFa?cjc=jrtksjjl) **using only your institutional email address** (ending in **uniroma1.it**):
-
-[https://classroom.google.com/c/MjIwMjMxODA2MDFa?cjc=jrtksjjl](https://classroom.google.com/c/MjIwMjMxODA2MDFa?cjc=jrtksjjl)
+The link to this course’s Google Classroom for {{< var course.semester >}} will be posted here before classes start. Please join it **using only your institutional email address** (ending in **uniroma1.it**).
 
 Registrations made with non-institutional email accounts will be **removed** from the Classroom.
 
@@ -51,11 +83,11 @@ Registrations made with non-institutional email accounts will be **removed** fro
 
 ## Software and Computing
 
-This course includes hands-on programming work using [Julia](https://julialang.or), a high-performance language well suited to numerical and statistical computing. Through coding exercises and empirical applications, students will implement the techniques presented in lectures—from OLS and instrumental variables estimation to Kalman filtering and dynamic factor models.
+This course includes hands-on programming work using [Julia](https://julialang.org), a high-performance language well suited to numerical and statistical computing. Through coding exercises and empirical applications, students will implement the techniques presented in lectures—from OLS and instrumental variables estimation to Kalman filtering and dynamic factor models.
 
 Programming is an invaluable way to understand the details of econometric methods: writing code forces clarity about each step of an estimation procedure and reveals how theoretical assumptions translate into practical choices. By building estimators from first principles, students develop a deeper intuition for the techniques and gain experience bridging the gap between theory and application.
 
-Prior experience with [Julia](https://julialang.or) is not required, but familiarity with programming fundamentals (in any language) is helpful. Introductory materials on Julia will be provided at the start of the course.
+Prior experience with [Julia](https://julialang.org) is not required, but familiarity with programming fundamentals (in any language) is helpful. Introductory materials on Julia will be provided at the start of the course.
 
 ## Textbooks
 

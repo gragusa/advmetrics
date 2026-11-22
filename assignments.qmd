@@ -1,5 +1,11 @@
 ---
 title: "Assignments"
+listing:
+  contents: materials.yml
+  sort: false
+  include:
+    kind: "Assignment"
+  template: _extensions/gragusa/academic/listings/materials.ejs
 ---
 
 Assignments will be posted here.

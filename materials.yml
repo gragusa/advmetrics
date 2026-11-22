@@ -1,0 +1,13 @@
+# Course material: one entry per file or link, in the order it should appear.
+# `file` points to a file in this repository (checked by
+# scripts/check-materials.py); `href` is an external link or a page of the site.
+# Required: week, topic, kind, title. Optional: date, note.
+# Entries with kind "Assignment" also appear on the Assignments page.
+#
+# - week: "Week 1"
+#   topic: "Foundations of econometric theory"
+#   kind: "Notes"
+#   title: "Asymptotic theory"
+#   file: materials/week01-notes.pdf
+#   date: 2027-02-23
+[]

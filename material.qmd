@@ -1,5 +1,9 @@
 ---
 title: "Notes"
+listing:
+  contents: materials.yml
+  sort: false
+  template: _extensions/gragusa/academic/listings/materials.ejs
 ---
 
 Note and other teaching material will be posted here.

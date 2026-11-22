@@ -1,0 +1,15 @@
+---
+title: "Updates"
+listing:
+  contents: updates
+  sort: "date desc"
+  date-format: "D MMM YYYY"
+  max-description-length: 400
+  template: _extensions/gragusa/academic/listings/dated-list.ejs
+  template-params:
+    empty: "No updates yet."
+  feed:
+    type: full
+---
+
+Announcements for the course, newest first. Subscribe with any feed reader through the [RSS feed](updates.xml).

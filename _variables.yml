@@ -10,15 +10,15 @@ instructor:
   appointment_url: https://calendar.app.google/GqJnp3LKxM5ZQ3h37
 
 course:
-  name: "Intermediate Econometrics"
+  name: "Advanced Econometrics"
   number: "10620843"
-  semester: "2025-2026"
-  days: "Tuesday, Wednesday, and Thursday"
-  time: "12:00-14:00"
-  location: "Tu (Aula Steve), W (Aula Marrama), Th (Aula Steve)"
-  dates: "24 February, 2026 - 28 May 2026"
-  github: "https://www.github.com/gragusa/intermediatemetrics"
-  url: "https://gragusa.org/intermediatemetrics"
+  semester: "2026-2027"
+  days: "To be announced"
+  time: "To be announced"
+  location: "To be announced"
+  dates: "From February 2027 (exact dates to be announced)"
+  github: "https://www.github.com/gragusa/advmetrics"
+  url: "https://gragusa.org/advmetrics"
   copyright_year: "2025-2026"
 
 university:
